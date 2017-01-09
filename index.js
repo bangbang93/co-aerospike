@@ -3,6 +3,7 @@
  */
 'use strict';
 const slice = Array.prototype.slice;
+let Promise = global.Promise;
 
 exports.client = function (client) {
   let proto = client.__proto__;
@@ -21,10 +22,15 @@ exports.client = function (client) {
           if (err) return reject(err);
           return resolve(result);
         });
-        // console.log(args);
         proto[fnName].apply(client, args);
       })
     }
   });
   return client;
 };
+
+Object.defineProperties(exports, {
+  set: function (value) {
+    Promise = value;
+  }
+});
