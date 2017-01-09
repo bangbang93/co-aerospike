@@ -1,0 +1,26 @@
+{
+  "name": "co-aerospike",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bangbang93/co-aerospike.git"
+  },
+  "keywords": [
+    "aerospike",
+    "promise"
+  ],
+  "author": "bangbang93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bangbang93/co-aerospike/issues"
+  },
+  "homepage": "https://github.com/bangbang93/co-aerospike#readme",
+  "devDependencies": {
+    "aerospike": "^2.4.4"
+  }
+}
