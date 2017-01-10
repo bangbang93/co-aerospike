@@ -4,7 +4,7 @@
 'use strict';
 const Aerospike = require('aerospike');
 const coAerospike = require('../');
-require('should');
+const should = require('should');
 const Promise = require('bluebird');
 
 const client = Aerospike.connect({
@@ -55,4 +55,7 @@ describe('co-aerospike', function () {
       done();
     })
   });
+  it('sync func', function () {
+    should(client.close()).undefined();
+  })
 });
