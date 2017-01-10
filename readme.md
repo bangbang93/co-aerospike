@@ -6,7 +6,7 @@ const Aerospike = require('aerospike');
 const coAerospike = require('co-aerospike');
 
 const client = Aerospike.connect({
-  hosts: 'aerospike-dev.s.qima-inc.com'
+  hosts: 'localhost'
 });
 
 coAerospike.client(client);
