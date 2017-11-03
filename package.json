@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/bangbang93/co-aerospike#readme",
   "devDependencies": {
-    "aerospike": "^2.4.4",
+    "aerospike": "^3.0.2",
     "bluebird": "^3.4.7",
-    "mocha": "^3.2.0",
-    "should": "^11.1.2"
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
   }
 }
