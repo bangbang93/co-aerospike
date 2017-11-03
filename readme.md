@@ -1,5 +1,7 @@
 # co-aerospike
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bangbang93/co-aerospike.svg)](https://greenkeeper.io/)
+
 ## Usage
 ```javascript
 const Aerospike = require('aerospike');
